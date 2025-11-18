@@ -7,7 +7,7 @@ export const personalInfo = {
   location: 'Gurugram, Haryana, India',
   email: 'rishavtarway@gmail.com',
   phone: '+91-7004544142',
-  resume: '/resume.pdf',
+  resume: '/RishavTarway-SWE.pdf',
   social: {
     github: 'https://github.com/rishavtarway',
     linkedin: 'https://www.linkedin.com/in/rishav-tarway-fst/',
