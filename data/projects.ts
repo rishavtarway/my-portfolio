@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description: 'Java + SQL console application with optimized query performance. Features Dockerized deployment pipeline with clean architecture, ensuring zero-downtime updates.',
     technologies: ['Java', 'SQL', 'Docker', 'CI/CD', 'HashMap', 'OOP'],
     github: 'https://github.com/rishavtarway/Student-Database-System',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=600&fit=crop',
     highlights: [
       '60% query performance boost via HashMap + SQL indexing',
       'Dockerized deployment pipeline with clean architecture',

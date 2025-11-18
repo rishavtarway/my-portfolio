@@ -11,7 +11,7 @@ export interface Education {
 export const education: Education[] = [
   {
     degree: 'B.Tech in Computer Science & Engineering - Artificial Intelligence & Machine Learning',
-    institution: 'Polaris School of Tech (StarEx University)',
+    institution: 'Polaris School of Tech (Starex University)',
     duration: '2023 - Pursuing',
     location: 'Gurugram',
     gpa: '8.85 CGPA',
