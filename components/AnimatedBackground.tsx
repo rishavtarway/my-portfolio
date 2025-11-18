@@ -28,8 +28,12 @@ export default function AnimatedBackground() {
       vy: number
       radius: number
       color: string
+      canvasWidth: number
+      canvasHeight: number
 
       constructor(canvasWidth: number, canvasHeight: number) {
+        this.canvasWidth = canvasWidth
+        this.canvasHeight = canvasHeight
         this.x = Math.random() * canvasWidth
         this.y = Math.random() * canvasHeight
         this.vx = (Math.random() - 0.5) * 0.5
@@ -38,12 +42,14 @@ export default function AnimatedBackground() {
         this.color = `rgba(59, 130, 246, ${Math.random() * 0.5 + 0.2})`
       }
 
-      update() {
+      update(canvasWidth: number, canvasHeight: number) {
+        this.canvasWidth = canvasWidth
+        this.canvasHeight = canvasHeight
         this.x += this.vx
         this.y += this.vy
 
-        if (this.x < 0 || this.x > canvas.width) this.vx *= -1
-        if (this.y < 0 || this.y > canvas.height) this.vy *= -1
+        if (this.x < 0 || this.x > canvasWidth) this.vx *= -1
+        if (this.y < 0 || this.y > canvasHeight) this.vy *= -1
       }
 
       draw() {
@@ -82,7 +88,7 @@ export default function AnimatedBackground() {
       }
 
       particles.forEach((particle) => {
-        particle.update()
+        particle.update(canvas.width, canvas.height)
         particle.draw()
       })
 
