@@ -147,7 +147,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Hi, I'm <span className="gradient-text">{personalInfo.name}</span>
+            Hi, I&apos;m <span className="gradient-text">{personalInfo.name}</span>
           </motion.h1>
           
           <motion.p

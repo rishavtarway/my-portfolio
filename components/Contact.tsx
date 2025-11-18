@@ -39,9 +39,9 @@ export default function Contact() {
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Let's Connect</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Let&apos;s Connect</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.
+              I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about technology.
             </p>
             <div className="space-y-4">
               <a
